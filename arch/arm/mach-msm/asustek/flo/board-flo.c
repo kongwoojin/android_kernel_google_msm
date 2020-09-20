@@ -1583,10 +1583,11 @@ static struct i2c_board_info isa1200_board_info[] __initdata = {
 #endif  /* CONFIG_HAPTIC_ISA1200 */
 
 /* configuration data for mxt1386e using V2.1 firmware */
+/*
 static const u8 mxt1386e_config_data_v2_1[] = {
-	/* T6 Object */
+	// T6 Object
 	0, 0, 0, 0, 0, 0,
-	/* T38 Object */
+	// T38 Object
 	14, 3, 0, 5, 7, 12, 0, 0, 0, 0,
 	0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
 	0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
@@ -1594,43 +1595,43 @@ static const u8 mxt1386e_config_data_v2_1[] = {
 	0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
 	0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
 	0, 0, 0, 0,
-	/* T7 Object */
+	// T7 Object
 	32, 10, 50,
-	/* T8 Object */
+	// T8 Object
 	25, 0, 20, 20, 0, 0, 0, 0, 0, 0,
-	/* T9 Object */
+	// T9 Object
 	139, 0, 0, 26, 42, 0, 32, 80, 2, 5,
 	0, 5, 5, 79, 10, 30, 10, 10, 255, 2,
 	85, 5, 0, 5, 9, 5, 12, 35, 70, 40,
 	20, 5, 0, 0, 0,
-	/* T18 Object */
+	// T18 Object
 	0, 0,
-	/* T24 Object */
+	// T24 Object
 	0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
 	0, 0, 0, 0, 0, 0, 0, 0, 0,
-	/* T25 Object */
+	// T25 Object
 	1, 0, 60, 115, 156, 99,
-	/* T27 Object */
+	// T27 Object
 	0, 0, 0, 0, 0, 0, 0,
-	/* T40 Object */
+	// T40 Object
 	0, 0, 0, 0, 0,
-	/* T42 Object */
+	// T42 Object
 	0, 0, 255, 0, 255, 0, 0, 0, 0, 0,
-	/* T43 Object */
+	// T43 Object
 	0, 0, 0, 0, 0, 0, 0, 64, 0, 8,
 	16,
-	/* T46 Object */
+	// T46 Object
 	68, 0, 16, 16, 0, 0, 0, 0, 0,
-	/* T47 Object */
+	// T47 Object
 	0, 0, 0, 0, 0, 0, 3, 64, 66, 0,
-	/* T48 Object */
+	// T48 Object
 	1, 64, 64, 0, 0, 0, 0, 0, 0, 0,
 	32, 40, 0, 10, 10, 0, 0, 100, 10, 90,
 	0, 0, 0, 0, 0, 0, 0, 10, 1, 10,
 	52, 10, 12, 0, 33, 0, 1, 0, 0, 0,
 	0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
 	0, 0, 0, 0,
-	/* T56 Object */
+	// T56 Object
 	0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
 	0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
 	0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
@@ -1638,6 +1639,7 @@ static const u8 mxt1386e_config_data_v2_1[] = {
 	0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
 	0,
 };
+*/
 
 /*
 #define MXT_TS_GPIO_IRQ			6
